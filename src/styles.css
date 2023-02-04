@@ -50,7 +50,7 @@ body {
 
 @media (max-width: 900px) {
     .container {
-        margin: 400px auto;
+        margin: 450px auto;
         width: 85vw;
     }
 }
