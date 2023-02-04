@@ -41,3 +41,20 @@ body {
 .active {
     color: white;
 }
+
+@media (max-width: 1250px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        margin: 400px auto;
+        width: 85vw;
+    }
+}
+
+@media (max-width: 600px) {
+}
+

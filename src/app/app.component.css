@@ -5,3 +5,15 @@
     grid-gap: 32px;
     width: 100%;
 }
+
+@media (max-width: 1250px) {
+}
+
+@media (max-width: 900px) {
+    .card-container {
+        grid-template-columns: auto ;
+    }
+}
+
+@media (max-width: 600px) {
+}

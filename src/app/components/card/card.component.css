@@ -42,3 +42,39 @@
     font-size: .9rem;
     color: var(--main-sub-text);
 }
+
+
+@media (max-width: 1250px) {
+}
+
+@media (max-width: 900px) {
+    .card-banner {
+        height: 160px;
+    }
+
+    .card-info {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .card-timeframe {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-timeframe > p {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-timeframe > h1 {
+        font-size: 2rem;
+    }
+
+    .card-timeframe > p {
+        font-size: 1rem;
+    }
+}
