@@ -1,6 +1,6 @@
 div.user {
     height: 320px;
-    background-color: hsl(246, 80%, 60%);
+    background-color: var(--primary-purple);
     border-radius: 12px;
     padding: 32px;
     display: flex;
@@ -21,7 +21,7 @@ div.info * {
 }
 
 div.info > p {
-    color: hsl(236, 100%, 87%);
+    color: var(--main-sub-text);
 }
 
 div.info > h1 {
@@ -29,14 +29,14 @@ div.info > h1 {
 }
 
 .header-card {
-    width: 200px;
+    width: 100%;
     height: 513px;
-    background-color: hsl(235, 46%, 20%);
+    background-color: var(--secondary-purple);
     border-radius: 12px;
 }
 
 .header-card li {
     list-style-type: none;
     margin: 32px;
-    color: hsl(235, 45%, 61%);
+    color: var(--main-inactive-text);
 }

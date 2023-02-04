@@ -4,6 +4,20 @@
     name="Jeremy Robson" 
     imgPath="../../assets/images/image-jeremy.png"
   />
-  <div>sdfads</div>
+  <div class="card-container">
+    <app-card 
+      *ngFor="let d of data; let i = index"
+      [ngStyle]="
+      {
+        'background-color': colors[i],
+        'background-image': icons[i],
+        'background-repeat': 'no-repeat',
+        'background-position': 'top right',
+        'border-radius': '12px'
+      }"
+      [data]="data[i]"
+    
+    />
+  </div>
 </div>
 

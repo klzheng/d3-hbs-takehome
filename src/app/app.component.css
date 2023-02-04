@@ -1,0 +1,7 @@
+.card-container {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto auto;
+    grid-gap: 32px;
+    width: 100%;
+}
