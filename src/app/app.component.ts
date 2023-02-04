@@ -49,5 +49,6 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.data = this.getData(data, "daily")
+    this.timeframe = "Yesterday"
   }
 }

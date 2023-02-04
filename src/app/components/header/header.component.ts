@@ -31,13 +31,13 @@ export class HeaderComponent {
 
       switch (clickedElement.id) {
         case "daily":
-          this.timeframe.emit("Day")
+          this.timeframe.emit("Yesterday")
           break
         case "weekly":
-          this.timeframe.emit("Week")
+          this.timeframe.emit("Last Week")
           break
         case "monthly":
-          this.timeframe.emit("Month")
+          this.timeframe.emit("Last Month")
           break
       }
 
@@ -57,6 +57,4 @@ export class HeaderComponent {
       }
     ))
   }
-
-
 }
