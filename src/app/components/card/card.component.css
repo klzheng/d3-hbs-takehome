@@ -17,6 +17,10 @@
     padding: 32px 24px;
 }
 
+.card-info:hover {
+    filter: brightness(1.5);
+}
+
 .card-info > p {
     font-weight: 500;
 }

@@ -1,3 +1,7 @@
+li {
+    color: var(--main-inactive-text);
+}
+
 div.user {
     height: 320px;
     background-color: var(--primary-purple);
@@ -38,5 +42,12 @@ div.info > h1 {
 .header-card li {
     list-style-type: none;
     margin: 32px;
-    color: var(--main-inactive-text);
+}
+
+.header-card li:hover {
+    color: white;
+}
+
+.active {
+    color: white;
 }

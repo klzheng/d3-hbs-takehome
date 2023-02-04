@@ -3,6 +3,8 @@
   <app-header 
     name="Jeremy Robson" 
     imgPath="../../assets/images/image-jeremy.png"
+    (cardData) = "receiveData($event)"
+    (timeframe) = "updateTimeframe($event)"
   />
   <div class="card-container">
     <app-card 
@@ -16,7 +18,7 @@
         'border-radius': '12px'
       }"
       [data]="data[i]"
-    
+      [timeframe]="timeframe"
     />
   </div>
 </div>

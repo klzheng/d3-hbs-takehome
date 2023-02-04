@@ -10,6 +10,7 @@ import * as data from "./data.json"
 export class AppComponent implements OnInit {
   title: string = 'Time Tracking Dashboard';
   data: Card[] = []
+  timeframe: string = ""
   colors: string[] = [
     "var(--card-orange)",
     "var(--card-sky-blue)",
@@ -36,6 +37,14 @@ export class AppComponent implements OnInit {
         previous: elem.timeframes[time].previous
       }
     ))
+  }
+
+  receiveData(event: any) {
+    this.data = event
+  }
+
+  updateTimeframe(event: any) {
+    this.timeframe = event
   }
 
   ngOnInit() {
