@@ -1,6 +1,9 @@
 # Time Tracking Dashboard 
 
+
 This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+<br/>
 
 ## Table of contents
 
@@ -14,8 +17,10 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
+<br/>
 
 ## Overview
+
 
 ### The challenge
 
@@ -37,6 +42,8 @@ Users should be able to:
 
 - Solution URL: [Github Repo](https://github.com/klzheng/d3-hbs-takehome)
 - Live Site URL: [Time Tracking Dashboard](https://klzheng-time-tracking-dashboard.netlify.app/)
+
+<br/>
 
 ## My process
 
@@ -140,6 +147,7 @@ All-in-all, this challenge was fun, acted as a great refresher on the basics of 
 - [What does !: mean in Typescript?](https://stackoverflow.com/questions/50983838/what-does-mean-in-typescript) - Stack Overflow is always a great backup resource to learn more about small quirks, bugs, and things that are just covered less in official documentation. It allowed me to understand what "!:" meant in Typescript. 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Amazing resource to learn and understand visually the different properties of the CSS flexbox layout. 
 
+<br/>
 
 ## Author
 
